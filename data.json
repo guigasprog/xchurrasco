@@ -1,0 +1,770 @@
+{
+  "tasksContainers": [
+    {
+      "id": 1,
+      "container": "Interface Básica",
+      "tasks": [
+        {
+          "id": 1,
+          "completed": false,
+          "description": "Faça um componente sidebar para armazenar as rotas em botoes.",
+          "diff": 1
+        },
+        {
+          "id": 2,
+          "completed": false,
+          "description": "Faça um componente container para dar um display nas rotas.",
+          "diff": 1
+        },
+        {
+          "id": 3,
+          "completed": false,
+          "description": "Faça um componente header para mostrar um breadcrumb da localização.",
+          "diff": 1
+        },
+        {
+          "id": 4,
+          "completed": false,
+          "description": "Faça um componente para gerenciar as pessoas.",
+          "diff": 1
+        },
+        {
+          "id": 5,
+          "completed": false,
+          "description": "Faça um componente para gerenciar as comidas.",
+          "diff": 1
+        },
+        {
+          "id": 6,
+          "completed": false,
+          "description": "Faça um componente para gerenciar o xhurrasco.",
+          "diff": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "container": "Componente Xhurrasco",
+      "tasks": [
+        {
+          "id": 1,
+          "completed": false,
+          "description": "Faça outros 4 componentes [Pessoas, Local, Estatísticas, Geral] e bole alguma interface agradável apra alternar entre esses componentes.",
+          "diff": 2
+        },
+        {
+          "id": 2,
+          "completed": false,
+          "description": "Dentro do componente [Pessoas] você deverá mostrar uma lista de todas as pessoas cadastradas e nessa lista colocar algumas informações básicas da pessoa.\n além disso colocar um inputswitch para selecionar as pessoas que serão convidadas no xhurrasco.",
+          "diff": 1
+        },
+        {
+          "id": 3,
+          "completed": false,
+          "description": "Dentro do componente [Local] você deverá criar um formulário com todos os campos de Local, sendo esses : [rua, numero, cep, complemento, cidade, estado, vagasEstacionamento, limiteDePessoas, valorAluguel]. A interface do formulário é de sua escolha.",
+          "diff": 1
+        },
+        {
+          "id": 4,
+          "completed": false,
+          "description": "Dentro do componente [Local] você deverá criar uma conexão REST com o VIACEP, e atribuir dados conforme o CEP informado.",
+          "diff": 1
+        },
+        {
+          "id": 5,
+          "completed": false,
+          "description": "Dentro do componente [Estatísticas] você deverá colocar algumas estatísticas sendo pelo ao menos 5, os dados você pode escolher do jeito que você quiser, contanto que esteja presente pelo ao menos 5 dados estatísticos."
+        },
+        {
+          "id": 6,
+          "completed": false,
+          "description": "Dentro do componente [Geral] você deverá colocar uma lista com os convidados e um inputswitch do lado para confirmar sua presença ou não.",
+          "diff": 1
+        },
+        {
+          "id": 7,
+          "completed": false,
+          "description": "Dentro do componente [Geral] dentro da lista de convidados você deve ter uma opção de selecionar 1 pessoa para ser o anfitreão do xhurrasco.",
+          "diff": 1
+        },
+        {
+          "id": 8,
+          "completed": false,
+          "description": "Dentro do componente [Geral] você deverá colocar uma lista com pessoas que confirmaram que irão, e dê algum jeito de mostrar uma lista com comidas, e atribuir as comidas para levar no xhurrasco e uma quantidade de comida nas pessoas.",
+          "diff": 1
+        },
+        {
+          "id": 9,
+          "completed": false,
+          "description": "Dentro do componente [Geral] colocar um contador de vagas de estacionamento, e fazer um contador em relação [Carros de pessoas | Vagas de estacionamento] caso as vagas chegarem à um limite, você não poderá convidar pessoas que se locomovem com veículos.",
+          "diff": 2
+        },
+        {
+          "id": 10,
+          "completed": false,
+          "description": "Fazer um botão chamado 'Realizar Churrasco', ao apertar o churrasco com seus dados serão salvos no backend."
+        },
+        {
+          "id": 11,
+          "completed": false,
+          "description": "Inventar alguma coisa que seja Útil e de sua criação um significado.",
+          "diff": 3
+        },
+        {
+          "id": 12,
+          "completed": false,
+          "description": "Todos os formulários devem ser validados!",
+          "diff": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "container": "Componente Pessoas",
+      "tasks": [
+        {
+          "id": 1,
+          "completed": false,
+          "description": "Faça outros 2 Componentes [Editar, Cadastrar].",
+          "diff": 1
+        },
+        {
+          "id": 2,
+          "completed": false,
+          "description": "Faça uma lista mostrando todas as pessoas que foram cadastradas.",
+          "diff": 1
+        },
+        {
+          "id": 3,
+          "completed": false,
+          "description": "Dentro dessa lista dê algum jeito de conseguir selecionar essa pessoa para editar.",
+          "diff": 1
+        },
+        {
+          "id": 4,
+          "completed": false,
+          "description": "Dê algum jeito de colocar em algum lugar algum botão para adicionar uma pessoa.",
+          "diff": 1
+        },
+        {
+          "id": 5,
+          "completed": false,
+          "description": "Dentro do componente [Editar] você deverá utilizar o @Input() para passar uma pessoa lá dentro para ser editada.",
+          "diff": 1
+        },
+        {
+          "id": 6,
+          "completed": false,
+          "description": "Dentro do componente [Editar] você deverá fazer um formulário com todas as informações da pessoa que podem ser editadas.",
+          "diff": 1
+        },
+        {
+          "id": 7,
+          "completed": false,
+          "description": "Dentro do componente [Editar] quando você terminar de editar uma pessoa você deverá utilizar o @Output() para emitir essa pessoa para o componente pai.",
+          "diff": 1
+        },
+        {
+          "id": 8,
+          "completed": false,
+          "description": "Dentro do componente [Editar] todos os campos de edição não podem ser enviados em branco!",
+          "diff": 1
+        },
+        {
+          "id": 9,
+          "completed": false,
+          "description": "Dentro do componente [Editar] ao finalizar a edição de um usuário seus dados devem ser enviados para o backend.",
+          "diff": 1
+        },
+        {
+          "id": 10,
+          "completed": false,
+          "description": "Dentro do componente [Cadastrar] você deverá fazer um formulário, com todos os campos e validações. A interface do formulário será de sua escolha.",
+          "diff": 1
+        },
+        {
+          "id": 11,
+          "completed": false,
+          "description": "Dentro do componente [Cadastrar] ao cadastrar um usuário deve salvar esse usuário para o backend",
+          "diff": 1
+        },
+        {
+          "id": 12,
+          "completed": false,
+          "description": "Coloque em algum local um botão para deletar uma pessoa.",
+          "diff": 1
+        },
+        {
+          "id": 13,
+          "completed": false,
+          "description": "Todos os formulários devem ser validados!",
+          "diff": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "container": "Componente Comidas",
+      "tasks": [
+        {
+          "id": 1,
+          "completed": false,
+          "description": "Faça outros 2 Componentes [Editar, Cadastrar].",
+          "diff": 1
+        },
+        {
+          "id": 2,
+          "completed": false,
+          "description": "Faça uma lista com Todas as comidas cadastradas.",
+          "diff": 1
+        },
+        {
+          "id": 3,
+          "completed": false,
+          "description": "Dê algum jeito de colocar em algum lugar um botão para adicionar uma comida.",
+          "diff": 1
+        },
+        {
+          "id": 4,
+          "completed": false,
+          "description": "Dê algum jeito de colocar em algum lugar um botão para editar uma comida.",
+          "diff": 1
+        },
+        {
+          "id": 5,
+          "completed": false,
+          "description": "Faça o componente [Editar] estar em uma rota filha da rota de comidas. e para editar uma comida, você deve passar o id do alimento pelo router outlet, OBS: VOCÊ EM HIPÓTESE ALGUMA DEVE PASSAR O ID NA URL!",
+          "diff": 2
+        },
+        {
+          "id": 6,
+          "completed": false,
+          "description": "Dentro do componente [Editar] você deve criar um formulário com todos os campos de uma comida. A interface do formulário é sua escolha.",
+          "diff": 1
+        },
+        {
+          "id": 7,
+          "completed": false,
+          "description": "Coloque em algum local um botão para deletar uma Comida.",
+          "diff": 1
+        },
+        {
+          "id": 8,
+          "completed": false,
+          "description": "Faça o componente [Cadastrar] estar em uma rota filha, onde você deve cadastrar um alimento e já fazer a requisição de salvar no backend",
+          "diff": 2
+        },
+        {
+          "id": 9,
+          "completed": false,
+          "description": "Dentro do componente [Cadastrar] fazer um formulário com todos os campos para cadastro de alimentos, com todas as suas validações",
+          "diff": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "container": "Challenges",
+      "warning": "Aviso! Realize as challenges após você terminar a aplicação em sí!",
+      "tasks": [
+        {
+          "id": 1,
+          "completed": false,
+          "description": "[Challenge - Vitão | Qualquer Componente]: Nos componentes que possuem formulários de cadastro e edição fazer o uso de formulários reativos.",
+          "diff": 1
+        },
+        {
+          "id": 2,
+          "completed": false,
+          "description": "[Challenge - Vitão | Componente xhurrasco/Pessoas]: Faça uma diretiva e coloque no componente que contêm a lista de pessoas com o inputswitch. essa diretiva deverá detectar a mudança de estado do inputswitch com o @ContentChild(), e informar com um toasty na tela se a pessoa foi convidada ou não.",
+          "diff": 2
+        },
+        {
+          "id": 3,
+          "completed": false,
+          "description": "[Challenge - Giovanna | Qualquer Componente]: Faça o uso do componente de treetable",
+          "diff": 1
+        },
+        {
+          "id": 4,
+          "completed": false,
+          "description": "[Challenge - Henry | Qualquer Componente]: Usar Drag & Drop do PrimeNG com duas tabelas aceitando Drops e Draggable.",
+          "diff": 2
+        },
+        {
+          "id": 5,
+          "completed": false,
+          "description": "[Challenge - Henry |  xhurrasco/Geral]: Exibir um counter da relação de Pessoas Convidadas/Pessoas Confirmadas.",
+          "diff": 1
+        },
+        {
+          "id": 6,
+          "completed": false,
+          "description": "[Challenge - Giovanna | Componente xhurrasco/Estatísticas]: Faça o uso de mais de um tipo de gráficos",
+          "diff": 1
+        },
+        {
+          "id": 7,
+          "completed": false,
+          "description": "[Challenge - Samuel/Saleh | Qualquer Componente]: Criar uma tabela que ao clicar em uma célula, aquele campo se torna editável.",
+          "diff": 3
+        },
+        {
+          "id": 8,
+          "completed": false,
+          "description": "[Challenge - Vitão | Componente xhurrasco/geral && pessoas]: Fazer o uso de RXJS para quando uma pessoa for selecionada como anfitreão do xhurrasco, aparecer um ícone de estrela do lado do campo da lista que está mostrando a pessoa no componente pessoas, e também alterar o background desse campo para alguma outra cor, indicando que ele é um anfitreão",
+          "diff": 3
+        },
+        {
+          "id": 9,
+          "completed": false,
+          "description": "[Challenge - Guigas/Vitão | Qualquer Componente]: Fazer o uso de um Dropdown com 2 opções, e quando você apertar em alguma irá executar uma ação",
+          "diff": 2
+        },
+        {
+          "id": 10,
+          "completed": false,
+          "description": "[Challenge - Guigas | Componente Comida]: Colocar uma tabela com as comidas, e um botão no ultimo campo da tabela 'row button' para adicionar comidas",
+          "diff": 1
+        },
+        {
+          "id": 11,
+          "completed": false,
+          "description": "[Challenge - Guigas | Qualquer Componente]: Fazer o uso de um dialog",
+          "diff": 1
+        },
+        {
+          "id": 12,
+          "completed": false,
+          "description": "[Challenge - Guigas | Qualquer Componente]: Fazer o uso de um overlay panel",
+          "diff": 1
+        }
+      ]
+    }
+  ],
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Luiz Ricardão",
+      "telefone": "(18) 99321-3321",
+      "locomocao": "CARRO",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 2,
+      "nome": "Ana Silva",
+      "telefone": "(21) 98765-4321",
+      "locomocao": "ÔNIBUS",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 3,
+      "nome": "Pedro Souza",
+      "telefone": "(11) 99876-5432",
+      "locomocao": "MOTO",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 4,
+      "nome": "Mariana Oliveira",
+      "telefone": "(31) 98765-1234",
+      "locomocao": "BICICLETA",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 5,
+      "nome": "João Santos",
+      "telefone": "(51) 99999-5555",
+      "locomocao": "A PÉ",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 6,
+      "nome": "Juliana Rodrigues",
+      "telefone": "(32) 98765-4321",
+      "locomocao": "CARRO",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 7,
+      "nome": "Carlos Oliveira",
+      "telefone": "(31) 98765-1234",
+      "locomocao": "ÔNIBUS",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 8,
+      "nome": "Aline Costa",
+      "telefone": "(21) 98765-4321",
+      "locomocao": "MOTO",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 9,
+      "nome": "Fernanda Santos",
+      "telefone": "(51) 99999-5555",
+      "locomocao": "BICICLETA",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 10,
+      "nome": "Rafael Mendes",
+      "telefone": "(32) 98765-4321",
+      "locomocao": "CARRO",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 11,
+      "nome": "Mariana Lima",
+      "telefone": "(31) 98765-1234",
+      "locomocao": "ÔNIBUS",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 12,
+      "nome": "Paulo Oliveira",
+      "telefone": "(21) 98765-4321",
+      "locomocao": "MOTO",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 13,
+      "nome": "Camila Santos",
+      "telefone": "(51) 99999-5555",
+      "locomocao": "BICICLETA",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 14,
+      "nome": "Lucas Mendes",
+      "telefone": "(32) 98765-4321",
+      "locomocao": "CARRO",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 15,
+      "nome": "Amanda Lima",
+      "telefone": "(31) 98765-1234",
+      "locomocao": "ÔNIBUS",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 16,
+      "nome": "Roberto Oliveira",
+      "telefone": "(21) 98765-4321",
+      "locomocao": "MOTO",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 17,
+      "nome": "Patrícia Santos",
+      "telefone": "(51) 99999-5555",
+      "locomocao": "BICICLETA",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 18,
+      "nome": "Fernando Mendes",
+      "telefone": "(32) 98765-4321",
+      "locomocao": "CARRO",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 19,
+      "nome": "Marcela Lima",
+      "telefone": "(31) 98765-1234",
+      "locomocao": "ÔNIBUS",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 20,
+      "nome": "Gustavo Oliveira",
+      "telefone": "(21) 98765-4321",
+      "locomocao": "MOTO",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 21,
+      "nome": "Luana Santos",
+      "telefone": "(51) 99999-5555",
+      "locomocao": "BICICLETA",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 22,
+      "nome": "Ricardo Mendes",
+      "telefone": "(32) 98765-4321",
+      "locomocao": "CARRO",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 23,
+      "nome": "Isabela Lima",
+      "telefone": "(31) 98765-1234",
+      "locomocao": "ÔNIBUS",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 24,
+      "nome": "Carolina Oliveira",
+      "telefone": "(21) 98765-4321",
+      "locomocao": "MOTO",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 25,
+      "nome": "Guilherme Santos",
+      "telefone": "(51) 99999-5555",
+      "locomocao": "BICICLETA",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 26,
+      "nome": "Renata Mendes",
+      "telefone": "(32) 98765-4321",
+      "locomocao": "CARRO",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 27,
+      "nome": "Sandra Lima",
+      "telefone": "(31) 98765-1234",
+      "locomocao": "ÔNIBUS",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 28,
+      "nome": "Diego Oliveira",
+      "telefone": "(21) 98765-4321",
+      "locomocao": "MOTO",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 29,
+      "nome": "Tatiane Santos",
+      "telefone": "(51) 99999-5555",
+      "locomocao": "BICICLETA",
+      "situacao": null,
+      "alimentos": []
+    },
+    {
+      "id": 30,
+      "nome": "Marcos Mendes",
+      "telefone": "(32) 98765-4321",
+      "locomocao": "CARRO",
+      "situacao": null,
+      "alimentos": []
+    }
+  ],
+  "comidas": [
+    {
+      "id": 1,
+      "descricao": "Ponta de peito",
+      "tipoAlimento": "Corte de carne",
+      "valor": 33.2
+    },
+    {
+      "id": 2,
+      "descricao": "Filé Mignon",
+      "tipoAlimento": "Corte de carne",
+      "valor": 45.7
+    },
+    {
+      "id": 3,
+      "descricao": "Alcatra",
+      "tipoAlimento": "Corte de carne",
+      "valor": 38.5
+    },
+    {
+      "id": 4,
+      "descricao": "Strogonoff",
+      "tipoAlimento": "Prato",
+      "valor": 28.9
+    },
+    {
+      "id": 5,
+      "descricao": "Lasanha",
+      "tipoAlimento": "Prato",
+      "valor": 21.3
+    },
+    {
+      "id": 6,
+      "descricao": "Salada Caesar",
+      "tipoAlimento": "Prato",
+      "valor": 16.8
+    },
+    {
+      "id": 7,
+      "descricao": "Coca-Cola",
+      "tipoAlimento": "Bebida",
+      "valor": 5.5
+    },
+    {
+      "id": 8,
+      "descricao": "Suco de Laranja",
+      "tipoAlimento": "Bebida",
+      "valor": 7.2
+    },
+    {
+      "id": 9,
+      "descricao": "Cerveja",
+      "tipoAlimento": "Bebida",
+      "valor": 9.9
+    },
+    {
+      "id": 10,
+      "descricao": "Picanha",
+      "tipoAlimento": "Corte de carne",
+      "valor": 55.6
+    },
+    {
+      "id": 11,
+      "descricao": "Feijoada",
+      "tipoAlimento": "Prato",
+      "valor": 32.4
+    },
+    {
+      "id": 12,
+      "descricao": "Peixe Grelhado",
+      "tipoAlimento": "Prato",
+      "valor": 27.8
+    },
+    {
+      "id": 13,
+      "descricao": "Água Mineral",
+      "tipoAlimento": "Bebida",
+      "valor": 3.5
+    },
+    {
+      "id": 14,
+      "descricao": "Sushi",
+      "tipoAlimento": "Prato",
+      "valor": 39.9
+    },
+    {
+      "id": 15,
+      "descricao": "Frango Assado",
+      "tipoAlimento": "Corte de carne",
+      "valor": 29.7
+    },
+    {
+      "id": 16,
+      "descricao": "Macarrão à Bolonhesa",
+      "tipoAlimento": "Prato",
+      "valor": 18.6
+    },
+    {
+      "id": 17,
+      "descricao": "Churrasco",
+      "tipoAlimento": "Corte de carne",
+      "valor": 42.3
+    },
+    {
+      "id": 18,
+      "descricao": "Pizza",
+      "tipoAlimento": "Prato",
+      "valor": 25.4
+    },
+    {
+      "id": 19,
+      "descricao": "Caipirinha",
+      "tipoAlimento": "Bebida",
+      "valor": 12.8
+    },
+    {
+      "id": 20,
+      "descricao": "Bife à Milanesa",
+      "tipoAlimento": "Corte de carne",
+      "valor": 23.9
+    },
+    {
+      "id": 21,
+      "descricao": "Salmão Grelhado",
+      "tipoAlimento": "Prato",
+      "valor": 34.7
+    },
+    {
+      "id": 22,
+      "descricao": "Risoto de Funghi",
+      "tipoAlimento": "Prato",
+      "valor": 19.5
+    },
+    {
+      "id": 23,
+      "descricao": "Guaraná",
+      "tipoAlimento": "Bebida",
+      "valor": 4.8
+    },
+    {
+      "id": 24,
+      "descricao": "Sorvete",
+      "tipoAlimento": "Prato",
+      "valor": 8.6
+    },
+    {
+      "id": 25,
+      "descricao": "Porção de Batata Frita",
+      "tipoAlimento": "Prato",
+      "valor": 15.2
+    },
+    {
+      "id": 26,
+      "descricao": "Whisky",
+      "tipoAlimento": "Bebida",
+      "valor": 18.9
+    },
+    {
+      "id": 27,
+      "descricao": "Tiramisù",
+      "tipoAlimento": "Prato",
+      "valor": 12.3
+    },
+    {
+      "id": 28,
+      "descricao": "Chopp",
+      "tipoAlimento": "Bebida",
+      "valor": 6.7
+    },
+    {
+      "id": 29,
+      "descricao": "Rabada",
+      "tipoAlimento": "Corte de carne",
+      "valor": 37.4
+    },
+    {
+      "id": 30,
+      "descricao": "Sushi",
+      "tipoAlimento": "Prato",
+      "valor": 29.9
+    }
+  ],
+  "churrasco": []
+}
